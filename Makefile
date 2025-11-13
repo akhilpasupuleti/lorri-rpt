@@ -3,7 +3,7 @@
 # Environment: Single Unified Conda Environment
 # ============================================================
 
-ENV_NAME = rpt-github
+ENV_NAME = rpt-env
 PYTHON_VERSION = 3.10
 CONDA_PREFIX = $(shell conda info --base)/envs/$(ENV_NAME)
 PYTHON = $(CONDA_PREFIX)/bin/python

@@ -1,4 +1,4 @@
-name: rpt-github
+name: rpt-env
 channels:
   - conda-forge
   - defaults
