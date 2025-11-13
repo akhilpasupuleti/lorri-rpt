@@ -93,10 +93,10 @@ Each model folder contains:
 ![alt text](image.png)
 
 File Upload -  
-![alt text](images/image-1.png)
-![alt text](images/image-2.png)
-![alt text](images/image-3.png)
-[Watch Demo](images/rpt_recording.mp4)
+![RPT Demo](images/rpt_gif.gif)
+![image 1](images/image-1.png)
+![image 1](images/image-2.png)
+![image 1](images/image-3.png)
 ---
 
 ## Python Version
