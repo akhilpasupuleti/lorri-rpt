@@ -86,18 +86,23 @@ Each model folder contains:
 * `category_map.pkl` – Encoded category mappings
 
 ---
-
 ## Project Screenshots
 
-![alt text](images/image_1.png)
-![alt text](image.png)
-
-File Upload -  
+### Demo
 ![RPT Demo](images/rpt_gif.gif)
-![image 1](images/image-1.png)
-![image 1](images/image-2.png)
-![image 1](images/image-3.png)
+
 ---
+
+### Interface Screenshots
+![Interface Screenshot 1](images/image_1.png)
+![Interface Screenshot 2](images/image.png)
+
+---
+### File Upload Screens
+![File Upload 1](images/image-1.png)
+![File Upload 2](images/image-2.png)
+![File Upload 3](images/image-3.png)
+
 
 ## Python Version
 
