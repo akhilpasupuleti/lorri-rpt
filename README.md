@@ -87,14 +87,16 @@ Each model folder contains:
 
 ---
 
-## Cleaning
+## Project Screenshots
 
-To remove the environment:
+![alt text](images/image_1.png)
+![alt text](image.png)
 
-```bash
-make clean_env
-```
-
+File Upload -  
+![alt text](images/image-1.png)
+![alt text](images/image-2.png)
+![alt text](images/image-3.png)
+[Watch Demo](images/rpt_recording.mp4)
 ---
 
 ## Python Version
