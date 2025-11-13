@@ -1,0 +1,83 @@
+.
+├── Dockerfile
+├── Makefile
+├── README.md
+├── api
+│   ├── __init__.py
+│   ├── config.py
+│   ├── main.py
+│   ├── models_loader.py
+│   ├── predict.py
+│   ├── routes
+│   │   ├── auto_match_headers.py
+│   │   ├── models_loader.py
+│   │   ├── predict.py
+│   │   └── truck_cleaner.py
+│   ├── schemas.py
+│   ├── test.py
+│   └── truck_cleaner.py
+├── base_prompt.txt
+├── data
+│   ├── external
+│   ├── interim
+│   ├── processed
+│   │   └── v4
+│   │       ├── rpt_prepared_lightgbm_v4.csv
+│   │       └── rpt_prepared_lightgbm_v4_metadata.json
+│   └── raw
+│       └── dataset-hector-apollo-v2.xlsx
+├── docker-compose.yml
+├── environment.yml
+├── models
+│   ├── v1_g
+│   │   ├── category_map.pkl
+│   │   ├── model.pkl
+│   │   ├── model.txt
+│   │   ├── model_config.json
+│   │   └── model_metrics.json
+│   └── v1_h
+│       ├── category_map.pkl
+│       ├── model.pkl
+│       ├── model.txt
+│       ├── model_config.json
+│       └── model_metrics.json
+├── mydir_structure.txt
+├── new_dir.txt
+├── notebooks
+│   └── exploration
+├── requirements.txt
+├── scripts
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-310.pyc
+│   ├── config
+│   │   └── config.yaml
+│   ├── data
+│   │   ├── clean_truck_types.py
+│   │   ├── dataset_transformations.py
+│   │   └── lane_error_report.csv
+│   ├── model_evaluation
+│   │   └── compare_rpt_models.py
+│   ├── models
+│   │   ├── train_g_distance_model.py
+│   │   ├── train_h_distance_model.py
+│   │   ├── train_ligthgbm.py
+│   │   └── train_model_base.py
+│   └── utils
+│       ├── __init__.py
+│       └── feature_config.py
+├── tests
+└── utils
+    ├── cleaning_utils.py
+    ├── constants.py
+    ├── cost_utils.py
+    ├── geo_utils.py
+    ├── llm_utils.py
+    ├── model_utils.py
+    ├── prompts
+    │   ├── auto_header_matching.txt
+    │   └── truck_cleaning.txt
+    └── validators.py
+
+28 directories, 74 files

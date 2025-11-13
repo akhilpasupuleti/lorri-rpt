@@ -1,0 +1,29 @@
+features:
+  - origin_hex
+  - destination_hex
+  - lane_hex
+  - bearing_angle_deg
+  - hex_ring_distance
+  - no_of_wheels
+  - capacity_mt
+  - axle_type
+  - body_type
+  - length_ft
+  - fuel_price_inr_per_litre
+  - h_distance_km
+  - fuel_price_per_km_h
+  - day
+  - month
+  - year
+
+target: log_base_price
+
+params:
+  objective: regression
+  metric: rmse
+  learning_rate: 0.05
+  num_leaves: 31
+  feature_fraction: 0.9
+  bagging_fraction: 0.8
+  bagging_freq: 5
+  seed: 42

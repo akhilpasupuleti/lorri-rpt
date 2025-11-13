@@ -1,0 +1,28 @@
+You are analyzing headers and sample rows from a logistics Excel file. Your task is to strictly map the following required fields:
+
+- "origin_name" (Origin column: city, district, location)
+- "destination_name" (Destination column)
+- "truck_type" (Truck type or vehicle category)
+- "date_column" (Date of movement, preferably in yyyy-mm-dd format)
+
+### Rules:
+- DO NOT GUESS.
+- If a column cannot be confidently identified, do not assign it.
+- Return JSON with two keys:
+  - "mapping": an object mapping the identified fields
+  - "missing_fields": a list of keys that could not be confidently identified
+
+### JSON response structure:
+```json
+{
+  "mapping": {
+    "origin_name": "Header1",
+    "destination_name": "Header2"
+  },
+  "missing_fields": ["truck_type", "date_column"]
+}
+```
+
+Now process the following:
+Headers: {{headers}}
+Sample Rows: {{sample_rows}}

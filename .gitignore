@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.pkl
+*.log
+# data/processed/
+models/
+.ipynb_checkpoints/
+.DS_Store
+
+# raw data
+~$*.env
+/data

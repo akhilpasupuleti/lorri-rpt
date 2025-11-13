@@ -1,0 +1,23 @@
+name: rpt-github
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - lightgbm
+  - pandas
+  - numpy
+  - scikit-learn
+  - joblib
+  - pyyaml
+  - openpyxl
+  - pip  # required to install pip-only packages
+  - pip:
+      - fastapi
+      - uvicorn
+      - python-dotenv
+      - requests
+      - httpx
+      - pydantic
+      - h3
+      - geopy

@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Conda environment & system crap
+*.conda
+*.env
+*.env.*
+*.ipynb_checkpoints/
+*.DS_Store
+
+# Jupyter and notebooks
+notebooks/
+*.ipynb
+
+# Data folders (exclude training-time data only)
+data/raw/
+data/interim/
+data/external/
+data/tmp/
+
+# Training-only or unused modules
+scripts/
+tests/
+src/model_evaluation/
+src/models/
+src/data/
+
+# Build artifacts / lock files
+*.lock
+*.log
+*.bak
+*.swp
+
+# Project scaffolding & meta files
+Makefile
+mydir_structure.txt
+
+# Git
+.git/
+.gitignore
